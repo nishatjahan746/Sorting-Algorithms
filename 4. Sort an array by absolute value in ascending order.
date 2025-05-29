@@ -1,0 +1,4 @@
+def value(a):
+    return sorted(a, key = abs)
+
+print(value([-10, 5, -3, 7, -2])) 
