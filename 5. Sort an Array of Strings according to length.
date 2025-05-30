@@ -1,0 +1,5 @@
+def length(a):
+    a.sort(key = len)
+    return a
+
+print(length(["apple", "bat", "carrot", "dog"]))
