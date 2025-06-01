@@ -1,0 +1,7 @@
+a = [1, 16, 13, 14, 4]
+b = [15, 12, 5, 3, 7]
+
+merged = a + b
+sort = sorted(merged)
+
+print(sort)
