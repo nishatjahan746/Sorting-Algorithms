@@ -1,0 +1,8 @@
+from collections import Counter
+def sorty(arr):
+    free = Counter(arr)
+    sorted_array = sorted(arr, key=lambda x :(- free[x], x))
+    return sorted_array
+a = [4, 3, 1, 6, 1, 3, 4, 4]
+output = sorty(a)
+print(output)
