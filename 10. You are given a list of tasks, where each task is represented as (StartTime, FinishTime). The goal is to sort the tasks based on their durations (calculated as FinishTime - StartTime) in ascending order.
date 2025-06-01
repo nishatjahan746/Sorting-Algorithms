@@ -1,0 +1,4 @@
+tasks = [(2, 5), (1, 2), (4, 6)]
+
+sorted_tsk = sorted(tasks, key=lambda x: x[1] - x[0])
+print(sorted_tsk)
